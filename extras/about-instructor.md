@@ -5,7 +5,7 @@ permalink: /extras/about-instructor
 ---
 
 ## W. Riley Casper
-<img src="/fig/casper.jpg" width="400" height="400" />
+<img src="/math107spring2022/fig/casper.jpg" width="400" height="400" />
 
 
 **Email:** wcasper@fullerton.edu
