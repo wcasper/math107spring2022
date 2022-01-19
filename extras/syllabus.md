@@ -138,6 +138,12 @@ Midterms will be held during class time in our Zoom meeting on the following dat
 * February 8: Last day for students to drop without a grade of ``W'' using Titan Online. Last day for students to ADD with a permit. All permits expire at midnight on September 8th.
 * April 23: Last day the Math Department will be flexible on the approval of non-medical withdrawal requests. Beginning Tuesday, September 22, students must have a serious and compelling reason for non-medical withdrawal requests and must provide supporting documentation for their reason.
 * May 7: Last day to withdrawal with a truly serious and compelling reason that is clearly beyond the student's control. Students must document their reason.
+* February 7 (Monday): Last day for students to ADD with a permit. All permits expire at midnight on February 7.
+* February 7 (Monday): Last day for students to DROP without a grade of ``W''.  Students drop using Titan Online.
+* February 22 (Tuesday): Last day the Math Department will be flexible on the approval of non-medical withdrawal requests.
+* February 23 (Wednesday) and after, students must have a serious and compelling reason for nonmedical withdrawal requests and must provide supporting documentation for their reason.
+* April 22 (Friday): Final deadline to submit a withdrawal request from classes with a grade of "W" for a serious and compelling reason. Last day to withdraw with a truly serious and compelling reason that is clearly beyond the student's control. Students must document their reason
+
 
 ## Academic integrity
 Students who violate university standards of academic integrity are subject to disciplinary sanctions, including failure in the course and suspension from the university. Since dishonesty in any form harms the individual, other students, and the university, policies on academic integrity are strictly enforced. Examples of academic dishonesty include, but are not limited to:
