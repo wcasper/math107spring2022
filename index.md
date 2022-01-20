@@ -25,7 +25,7 @@ title: Math 107 Intro. to Computational Linear Algebra
 **Syllabus:** <a target="_parent" href="extras/syllabus.html">Course syllabus (link)</a>
 
 **Course calendar:**
-The reading assignments, homework, quizzes, and exam dates can be found here [extras/calendar](extras/calendar)
+including reading assignments, homework, quizzes, and exam dates [extras/calendar](extras/calendar)
 
 **First steps**
 
