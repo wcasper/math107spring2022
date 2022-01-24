@@ -10,6 +10,10 @@ In this part of the assigment, we will answer some questions which are concerned
 
 * [solution m-file template](hw1-part2.m)
 
+Also for part of this assignment, you will need the image file
+
+* [thematrix.jpg](thematrix.jpg)
+
 **Problem 1:**
 
 In this problem, we will practice creating vectors and matrices.
