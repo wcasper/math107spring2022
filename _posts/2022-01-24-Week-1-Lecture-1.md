@@ -21,7 +21,7 @@ This course is a 50/50 mix of **linear algebra** and **computer programming**.
 ### Linear algebra
 Linear algebra is perhaps one of the most widely applicable mathematics courses in university.  In fact, linear algebra plays a central role in virtually every other topic in modern mathematics!  Even better, it features a ton of real-world applications including the following extremely incomplete list of examples: digital image processing, machine learning, curve fitting, weather forecasting, data analysis, computer vision, computational physics, and engineering.
 
-Check the following page for several examples of specific <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/example-problems">cool problems that can be solved using linear algebra (link)</a>.
+Check the following page for several examples of specific <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/example-problems">cool problems that can be solved using linear algebra (link)</a>.
 
 ### Computer programming
 For many of the real-world applications, the linear algebra problems are simply too big to be reasonably done by hand and we need to learn how to use a computer.  Even then, some particularly large problems can take a very long time.  In this class we will learn how to perform some basic programming tasks using MATLAB in order to find numerical solutions of some linear algebra problems.
@@ -50,13 +50,9 @@ temp = 65
 
 
 ## Additional resources
-**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/MATLAB/lecture1.m">mfile for lecture (link)</a>
+**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1.m">mfile for lecture (link)</a>
 
-**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/notes/2021-01-25-Note-10-28.pdf">notes for lecture (link)</a>
-
-**Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/-hOM1qTmWvCl0Hg-s5NlXj45SZwl7Xxs5Xl_BAHRFozHJZPyfmRdU74aFXgUEG76.NHQTXkMNRdO3e7v8">recording of lecture (link)</a>
-
-The passcode can be found on the <a target="_parent" href="https://csufullerton.instructure.com/courses/3127326/pages/video-lecture-keys">passcode page (link)</a>
+**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/notes/2021-01-25-Note-10-28.pdf">notes for lecture (link)</a>
 
 
 
