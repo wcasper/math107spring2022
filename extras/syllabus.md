@@ -13,7 +13,7 @@ permalink: /extras/syllabus
 
 **Office hourse:** Tuesdays and Wednesdays 3-4PM.  Additional office hours are always available by request.
 
-**Zoom room:**  Some lectures and office hours will take place over Zoom using the room number [89637316249](https://fullerton.zoom.us/j/89637316249?pwd=VlFvcWhWRDVxdHpsWnVJTkMwTFMvQT09)
+**Zoom room:**  Some lectures and office hours will take place over Zoom using the room number [85401217773](https://fullerton.zoom.us/j/85401217773?pwd=TFdpNTZnVUREV0dVbEx5dWJOMDVQQT09)
 
 **Zoom password:** 112358
 
