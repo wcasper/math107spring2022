@@ -35,7 +35,7 @@ sqrt(20)
 sin(pi)
 exp(1)
 ```
-Note that by default **all** inputs for trigonnometric functions are in radians instead of degrees, which incidentally is how things should always be once you've taken calculus.
+Note that by default **all** inputs for trigonometric functions are in radians instead of degrees, which incidentally is how things should always be once you've taken calculus.
 
 ### Variables
 We can create variables using the = symbol.
