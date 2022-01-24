@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Flipgrid Introductions
-permalink: flipgrid-intros
+permalink: flipgrid
 ---
 
 Our first task is to introduce ourselves to the rest of the class!  Use this opportunity to introduce yourself to your peers and maybe even find some study buddies to work with during the class.  To complete this assignment, follow these steps
