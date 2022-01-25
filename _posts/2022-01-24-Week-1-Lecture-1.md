@@ -57,6 +57,7 @@ temp = 65
 * <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1.m">mfile for lecture (link)</a>
 * **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1_example.m">simple example (link)</a>
 * **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1_example.m">sphere volume example (link)</a>
-
+* **Lecture video:** <a href="https://fullerton.zoom.us/rec/share/ZjspgnIoYcFGueDkeVR0Fg3EzgcwEo_Y_7-NBcpI7Z3WfDXD6QxyBxytLXaocb-P.mW26rydu3QlpHRfU">lecture video</a>
+The access code for watching this video can be found on the Orientation Module in Canvas.
 
 
