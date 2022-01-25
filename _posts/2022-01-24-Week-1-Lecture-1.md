@@ -53,9 +53,10 @@ temp = 65
 **Hype slides:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/presentations/hype/slides.pdf">pdf of slides (link)</a>
 
 
-**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1.m">mfile for lecture (link)</a>
-
-**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/notes/2021-01-25-Note-10-28.pdf">notes for lecture (link)</a>
+**Lecture code:** 
+* <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1.m">mfile for lecture (link)</a>
+* **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1_example.m">simple example (link)</a>
+* **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture1_example.m">sphere volume example (link)</a>
 
 
 
