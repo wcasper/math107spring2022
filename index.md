@@ -37,6 +37,9 @@ Please familiarize yourself with the syllabus and the Canvas site for this cours
 
 Please reach out as soon as possible if you have any questions or concerns.
 
+**Additional coding practice**
+Some information on additional coding practice can be found <a target="_parent" href="extras/coding-practice.html">here (link)</a>
+
 ***
 
 ## New posts!
