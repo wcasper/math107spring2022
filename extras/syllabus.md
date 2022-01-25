@@ -17,7 +17,7 @@ permalink: /extras/syllabus
 
 **Zoom password:** 112358
 
-**Course website:** we will use Canvas website (Spring 2022 MATH 407-1 18421), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math407spring2022">Github Pages site (link)</a> which you may find more convenient for pulling material.
+**Course website:** we will use Canvas website (Spring 2022 MATH 107-2), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math107spring2022">Github Pages site (link)</a> which you may find more convenient for pulling material.
 
 ## Course meeting information
 * Section: 01
@@ -52,7 +52,7 @@ The second textbook is available as a <a target="_parent" href="textbook.pdf">fr
 For this course, you will need to have access to technology that will allow you to join Zoom lectures, join Zoom office hours, view and upload assignments on Canvas, and create MATLAB programs.
 
 * **HARDWARE:** an actual working laptop or personal computer with both a microphone and a webcam.  This class has a large programming component and **cell phones or tablets will not cut it**.  If you don't have the required hardware, see Technology requests below.
-* **MATLAB:** MATLAB is a robust software package that is used by many scientists and engineers to model real-world phenomena.  You will be required to use MATLAB for in-class and homework assignments.  MATLAB is available for free to all CSUF students.  Visit the following <a target="_parent" href="https://csufullerton.instructure.com/courses/3127326/pages/install-matlab?module_item_id=67996522">link about installing MATLAB</a>.  It is strongly suggested that you have a personal laptop or desktop computer on which you can install MATLAB and do assignments.
+* **MATLAB:** MATLAB is a robust software package that is used by many scientists and engineers to model real-world phenomena.  You will be required to use MATLAB for in-class and homework assignments.  MATLAB is available for free to all CSUF students.  Visit the following <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/install-MATLAB">link about installing MATLAB</a>.  It is strongly suggested that you have a personal laptop or desktop computer on which you can install MATLAB and do assignments.
 * **Canvas:** We will be using the Canvas Learning Management System for all course materials and communication.  See below for details.
 * **Zoom:** For this course, you will need to have access to technology that will allow you to join Zoom for lectures and office hours.
 * **Internet:** You will require ongoing access to a computer with reliable internet connectivity for assignments and lectures
