@@ -124,12 +124,12 @@ A(:,[1 3 5])
 ```
 
 ## Additional resources
-**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/MATLAB/lecture2.m">mfile for lecture (link)</a>
+* **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture2.m">mfile for lecture (link)</a>
 
-**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/notes/2021-01-27-Note-09-51.pdf">notes for lecture (link)</a>
+* **Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/notes/lecture2-2022-01-26.pdf">notes for lecture (link)</a>
 
-**Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/ihNVO_LpUHdFfytxoLK1t2npEld8wt4NOMlVbJijOzQA8BaCSm_6pfSKSsPJEf-2.ZYZ0Gao0OsPgNik7">recording of lecture (link)</a>
+* **Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/7UFYMdIe7DTUEOLHheiaRt4dApZOAtsweR8BvTvpu4X1YA2aPseEhh2LA5P33fjZ.OWczMKy6P0UUj4NN?startTime=1643234858000">recording of lecture (link)</a>
+The access code for watching this video can be found on the Orientation Module in Canvas.
 
-The passcode can be found on the <a target="_parent" href="https://csufullerton.instructure.com/courses/3127326/pages/video-lecture-keys">passcode page (link)</a>
 
 
