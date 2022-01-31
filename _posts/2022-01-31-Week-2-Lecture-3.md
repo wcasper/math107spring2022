@@ -155,13 +155,12 @@ A + B
 ```
 
 ## Additional resources
-**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/MATLAB/lecture3.m">mfile for lecture (link)</a>
+* **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture3.m">mfile for lecture (link)</a>
 
-**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/notes/2021-02-01-Note-10-22.pdf">notes for lecture (link)</a>
+* **Images from lecture:** 
+  * <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/space.jpg">space.jpg (link)</a>
+  * <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/mittens.jpg">mittens.jpg (link)</a>
 
-**Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/-XSMkxEIryg3KXXoDXZj-UEizt7FIz2zcYnwyljDU3txKPcEQpXBKT1M9PRwRYSH.KqFZzxEeBubp1B__">recording of lecture (link)</a>
-
-The passcode can be found on the <a target="_parent" href="https://csufullerton.instructure.com/courses/3127326/pages/video-lecture-keys">passcode page (link)</a>
 
 
 
