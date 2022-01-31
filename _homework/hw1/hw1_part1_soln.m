@@ -25,4 +25,4 @@ T = 20;
 
 % now use the equation above to determine the time it took for the body to cool
 % make sure to use the variable t for your result!!
-t = -(1/r)*log((T-T_room)/(T_0-T_room))
+t = -(1/r)*log((T-T_room)/(T_0-T_room));
