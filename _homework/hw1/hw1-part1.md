@@ -7,7 +7,7 @@ permalink: /homework/hw1/hw1-part1
 ## Variables and Algebraic Operations
 In this part of the assigment, we will practice performing algebraic operations and defining variables with MATLAB.  Please use the following template when submitting your solutions:
 
-* [solution m-file template](hw1-part1.m)
+* [solution m-file template](hw1_part1.m)
 
 **Problem 1:**
 

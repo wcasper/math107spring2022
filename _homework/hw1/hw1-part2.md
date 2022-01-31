@@ -8,7 +8,7 @@ permalink: /homework/hw1/hw1-part2
 
 In this part of the assigment, we will answer some questions which are concerned with vectors, matrices, and playing with images in MATLAB.  Please use the following template when submitting your solutions:
 
-* [solution m-file template](hw1-part2.m)
+* [solution m-file template](hw1_part2.m)
 
 Also for part of this assignment, you will need the image file
 
