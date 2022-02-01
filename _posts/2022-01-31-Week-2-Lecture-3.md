@@ -161,6 +161,10 @@ A + B
   * <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/space.jpg">space.jpg (link)</a>
   * <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/mittens.jpg">mittens.jpg (link)</a>
 
+* **Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/notes/lecture3-2022-01-31.pdf">notes for lecture (link)</a>
+
+* **Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/L0arENZqgi85b7Tboofaf2Xsrnabi7fX-Z2UWj6keVvbYjUMRCbdlN2VKBZdSDZh.JZnN6e8KXtuBOafJ?startTime=1643666873000">recording of lecture (link)</a>
+The access code for watching this video can be found on the Orientation Module in Canvas.
 
 
 
