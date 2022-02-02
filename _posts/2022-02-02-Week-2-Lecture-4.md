@@ -133,17 +133,11 @@ find(A>=2)   % returns index or indices where the entries of A are 2 or greater
 
 ## Additional resources
 
-**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/MATLAB/lecture4.m">mfile for lecture (link)</a>
-
-**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/notes/2021-02-03-Note-11-11.pdf">notes for lecture (link)</a>
-
-**Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/L_AB9vN9xAJQ0jst8EpXClJYabiyTo3jcSNa5TPIZb43iZTBqWFVXP7cTze6R1qs.ZFjqxW__ZQU8-nmW">recording of lecture (link)</a>
-
-The passcode can be found on the <a target="_parent" href="https://csufullerton.instructure.com/courses/3127326/pages/video-lecture-keys">passcode page (link)</a>
+**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture4.m">mfile for lecture (link)</a>
 
 **images for lecture:**
-* <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/img/ghost.jpg">ghost.jpg</a>
-* <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/img/spooky-woods.jpg">spooky-woods.jpg</a>
+* <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/ghost.jpg">ghost.jpg</a>
+* <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/spooky-woods.jpg">spooky-woods.jpg</a>
 
 
 
