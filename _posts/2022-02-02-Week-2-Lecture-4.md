@@ -6,7 +6,6 @@ Notes and highlights from lecture
 
 ## Today's Objectives
 
-* MATLAB grader
 * linear combinations
 * convex combinations
 * built-in MATLAB functions
@@ -15,24 +14,6 @@ Notes and highlights from lecture
 
 * <a target="_parent" href="../../../extras/textbook.pdf">primary text (link)</a>: chapter 3 section 1 + 2
 * When Life is Linear: chapter 3
-
-## MATLAB grader
-For some of our homework, we will submit solutions through MATLAB grader, which
-is already integrated into Canvas.  You will enter your MATLAB code into the
-**Script Window** on Canvas.  You can check your code by pressing the **Run Script**
-button, which will run the code and display any output.  This also gives you a
-chance to see if there are any errors in your code which make MATLAB unhappy.
-
-When you are ready to hand over your code for grading, you should hit
-**Submit** button to submit the assignment.  You have exactly three chances to
-submit the assignment, so if things don't go perfectly the first time, you can
-attempt to correct some mistakes.
-
-Important notes:
-
-* Make sure to complete the entire assignment before submitting!! All of your answers are checked during submission and missing answers are counted as incorrect.  Don't waste a submission!
-* If your submission has a mistake, be sure to read the error feedback in order to get a better idea of what might have gone wrong!
-* You must submit at least once in order for your homework to be graded.  Be sure to hit **Submit** at least once before the homework deadline.
 
 ## Linear combinations
 
