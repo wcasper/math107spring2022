@@ -142,8 +142,6 @@ find(A>=2)   % returns index or indices where the entries of A are 2 or greater
 The passcode can be found on the <a target="_parent" href="https://csufullerton.instructure.com/courses/3127326/pages/video-lecture-keys">passcode page (link)</a>
 
 **images for lecture:**
-* <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/img/mittens.jpg">mittens.jpg</a>
-* <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/img/space.jpg">mittens.jpg</a>
 * <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/img/ghost.jpg">ghost.jpg</a>
 * <a target="_parent" href="https://wcasper.github.io/math107spring2021/extras/img/spooky-woods.jpg">spooky-woods.jpg</a>
 
