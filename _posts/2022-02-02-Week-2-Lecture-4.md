@@ -133,11 +133,16 @@ find(A>=2)   % returns index or indices where the entries of A are 2 or greater
 
 ## Additional resources
 
-**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture4.m">mfile for lecture (link)</a>
-
 **images for lecture:**
 * <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/ghost.jpg">ghost.jpg</a>
 * <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/img/spooky-woods.jpg">spooky-woods.jpg</a>
+
+**Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture4.m">mfile for lecture (link)</a>
+**Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/notes/lecture4-2022-02-02.pdf">lecture notes (link)</a>
+
+* **Lecture video:** <a target="_parent" href="">recording of lecture (link)</a>
+The access code for watching this video can be found on the Orientation Module in Canvas.
+
 
 
 
