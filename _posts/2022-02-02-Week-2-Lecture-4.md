@@ -140,7 +140,7 @@ find(A>=2)   % returns index or indices where the entries of A are 2 or greater
 **Lecture code:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/MATLAB/lecture4.m">mfile for lecture (link)</a>
 **Lecture notes:** <a target="_parent" href="https://wcasper.github.io/math107spring2022/extras/notes/lecture4-2022-02-02.pdf">lecture notes (link)</a>
 
-* **Lecture video:** <a target="_parent" href="">recording of lecture (link)</a>
+* **Lecture video:** <a target="_parent" href="https://fullerton.zoom.us/rec/share/Qrj-bUQyDyavB147rW7Ub_cML8AvUREZrzPUUJgh1lHtLC_7upb0N_JGknRGfmDw.st-7oD8xsvghqezj?startTime=1643939783000">recording of lecture (link)</a>
 The access code for watching this video can be found on the Orientation Module in Canvas.
 
 
