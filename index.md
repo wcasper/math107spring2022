@@ -16,7 +16,7 @@ title: Math 107 Intro. to Computational Linear Algebra
 
 **Course meetings:** MH Room 404, Monday and Wednesday 2:00PM-4:00PM
 
-**Office hours:** TO BE ANNOUNCED and by appointment
+**Office hours:** Monday and Wednesday 4-5PM and by appointment
 
 **Zoom number for class/office hours:** <a target="_parent" href="https://fullerton.zoom.us/j/85401217773?pwd=TFdpNTZnVUREV0dVbEx5dWJOMDVQQT09">85401217773</a>
 
