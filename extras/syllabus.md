@@ -11,7 +11,7 @@ permalink: /extras/syllabus
 
 **Email:** wcasper@fullerton.edu
 
-**Office hourse:** Tuesdays and Wednesdays 3-4PM.  Additional office hours are always available by request.
+**Office hourse:** Mondays and Wednesdays 4-5PM.  Additional office hours are always available by request.
 
 **Zoom room:**  Some lectures and office hours will take place over Zoom using the room number [85401217773](https://fullerton.zoom.us/j/85401217773?pwd=TFdpNTZnVUREV0dVbEx5dWJOMDVQQT09)
 
