@@ -34,7 +34,7 @@ We can change the format of the plot by using **markers**, **colors**, and **lin
 |  '.'	| Point                         |
 |  'x'	| Cross                         |
 |  '_'	| Horizontal line               |
-|  '|'	| Vertical line                 |
+|  '\|'	| Vertical line                 |
 |  's'	| Square                        |
 |  'd'	| Diamond                       |
 |  '^'	| Upward-pointing triangle      |
