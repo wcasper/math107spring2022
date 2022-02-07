@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Course Calendar
+title: Calendar
 permalink: /extras/calendar
 ---
 
