@@ -14,7 +14,7 @@ title: Math 107 Intro. to Computational Linear Algebra
 
 **Email:** wcasper@fullerton.edu
 
-**Course meetings:** Monday and Wednesday 2:00PM-4:00PM
+**Course meetings:** MH Room 404, Monday and Wednesday 2:00PM-4:00PM
 
 **Office hours:** TO BE ANNOUNCED and by appointment
 
