@@ -72,5 +72,7 @@ collections:
     output: true
   exams:
     output: true
+  worksheets:
+    output: true
 
 
