@@ -54,6 +54,7 @@ header_pages:
  - extras/syllabus.md
  - extras/calendar.md
  - homework-list.md
+ - worksheet-list.md
  - exams-list.md
 
 # Build settings
