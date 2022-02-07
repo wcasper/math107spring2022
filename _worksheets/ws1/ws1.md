@@ -23,26 +23,45 @@ Our objective in this worksheet is to read and analyze this data in groups.  Mak
 
 ### Step 1: load the data
 
-The data file is called ersst.v5.2020.asc.  To load this data file, make sure that it is in the working directory for MATLAB and run the command
+The data file is called *ersst.v5.2020.asc*.  Feel free to open it up and look inside!  You should see lists of a whole heck of a lot of numbers.  As humans, it's difficult for us to deal with so many numbers at the same time, but for MATLAB, it's a piece of cake!
+
+We want to take this data from the file and read it into MATLAB.  When we did this for images, we used the command *imread()*.   Of course this is not an image, so we'll be using the command *load()* instead.
+
+**Important:** make sure that the data file is in the current working directory for MATLAB, just like we need to do for images!
 
 ```Matlab
 sst = load("ersst.v5.2020.asc");
-sst = reshape(sst,180,12,89);
-sst = permute(sst,[3,1,2]);
 ```
 
-The first command reads in the data from the data file.  The second command reshapes the data into an array called sst, which has the expected size and shape.  The third command reorders the array dimensions.  In particular, the shape is $$89\times 180\times 12$$.  You can double-check this with the size command.
+Now we have read in the data file into MATLAB, specifically into a variable we called *sst* (to represent sea surface temperature).  The data itself represents the value of the sea surface temperature on a $$2$$ degree latitude $$\times$$ $$2$$ degree longitude grid over the entire globe during any particular month of the year $$2020$$.  Of course, MATLAB doesn't know this, so it just read the whole thing in as a single long array of values.  To help us make sense of the data, we need to tell MATLAB how to reshape the array using the *reshape()* command.
+
+```Matlab
+sst = reshape(sst,180,12,89);
+```
+
+This reshapes *sst* into an $$180\times 12\times 89$$ array.  You can double-check this using the *size()* command.
 
 ```Matlab
 size(sst)
 ```
 
+Note that I figured out which numbers to use by reading the documentation for the data file found at the <a target="_parent" href="https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5"> NOAA website (link)</a>.
+Now the array is formed so that *sst(k,m,j)* represents the average sea surface temperature at latitude $$2j$$ and longitude $$2k$$ in the $$m$$'th month of the year $$2020$$.
+
+The fact that the first indexing is longitudes, then months, then latitudes is bothersome.  To me, it seems more natural for the indices to be latitudes, then longitudes, then months.  To change this I can use the *permute()* command.
+
+```Matlab
+sst = permute(sst,[3,1,2]);
+```
+
+This reorders the indices so that *sst(j,k,m)* is the average sea surface temperature at latitude $$2j$$ and longitude $$2k$$ in the $$m$$'th month of the year 2020.
+
+
 ### Step 2: Understand the data
 
 If we carefully read the information provided on the NOAA website, we discover
 
-* sst(j,k,m) is the average sea surface temperature at latitude $$2j$$ and longitude $$2k$$ in the $$m$$'th month of the year 2020.
-* the temperature units are in terms of $$100\deg C$$
+* the temperature units are in terms of $$0.01\deg C$$
 * places where there is no sea surface temperature (ie. land) are set to value $$-9999$$
 
 In MATLAB, we have another way to tell the computer that there is no value at a spot, using the data value NaN (short for not a number).  Let's change the value of sst at land points from -9999 to NaN.  To do this, we can run the command
