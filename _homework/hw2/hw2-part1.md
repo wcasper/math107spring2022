@@ -7,6 +7,9 @@ permalink: /homework/hw2/hw2-part1
 Use the following template to complete this assignment in MATLAB and then copy and paste your solutions into Canvas.
 * [solution m-file template](hw2_part1.m)
 
+Also you will need the following file to be in your current working directory in order to get the code to work
+* [code for lorenz attractor](lorenz.m)
+
 ## Chaos Theory
 
 Chaos Theory studies dynamical systems, such as systems of particles moving
