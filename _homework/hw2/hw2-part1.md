@@ -4,6 +4,9 @@ title: Homework 2 Part 1
 permalink: /homework/hw2/hw2-part1
 ---
 
+Use the following template to complete this assignment in MATLAB and then copy and paste your solutions into Canvas.
+* [solution m-file template](hw2_part1.m)
+
 ## Chaos Theory
 
 Chaos Theory studies dynamical systems, such as systems of particles moving
