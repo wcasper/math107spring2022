@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Homework Solutions
+title: Homework 1 Solutions
 permalink: /homework/hw1/solutions
 ---
 
