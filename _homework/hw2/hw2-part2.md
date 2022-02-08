@@ -4,9 +4,9 @@ title: Homework 2 Part 2
 permalink: /homework/hw2/hw2-part2
 ---
 
-## Linear combinations
-
 Write down your solutions to the following problems, then scan and upload them as a single pdf.
+
+## Linear combinations
 
 **Problem 1:**  Consider the matrices
 
