@@ -3,7 +3,7 @@
 
 xmax = max(x);
 xmin = min(x);
-x0 = x[1];
+x0 = x(1);
 
 %% Problem 2
 plot(x,z)
