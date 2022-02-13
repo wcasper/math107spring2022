@@ -38,4 +38,5 @@ gaussian_area(a,b,n)
 ```
 
 which takes in the endpoints of the interval of integration $$[a,b]$$ and the number of rectangles to be used and returns the corresponding right Riemann sum with $$n$$ rectangles approximating the area under the curve $$f(x) = e^{-x^2}$$.
+Make sure to add some comments in the file to help explain what your calculation is doing.
 
