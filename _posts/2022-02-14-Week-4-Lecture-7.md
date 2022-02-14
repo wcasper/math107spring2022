@@ -6,6 +6,7 @@ Notes and highlights from lecture
 
 ## Today's Objectives
 
+* happy Valentine's Day!
 * more function practice
 * for loops and while loops
 
