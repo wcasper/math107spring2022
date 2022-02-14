@@ -93,6 +93,7 @@ end
 ### When to use for vs. while loops
 
 As a rule of thumb
+* anything you can do with a for loop can also be done with a while loop, but it may be harder / less natural
 * use for loops when you can determine before hand how many iterations are necessary, in particular when iteration occurs over a vector or matrix
 * use while loops when you don't know how many iterations you may need before hand, in particular when you need to run until a condition holds
 
