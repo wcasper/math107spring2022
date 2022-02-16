@@ -57,22 +57,6 @@ Suppose we are building a very complex code.  We don't want to have to pollute o
 
 Suppose we want to write a function that anybody can use if they want to.  For example, it could be a function that takes in a temperature in Fahrenheit and converts it to Celsius.  If inside our function we have a variable called *temp*, and somebody trying to use our function also happens to have a variable called *temp* in some other part of their code, we don't want that to change how our function behaves!
 
-## Loop example with local variables
-
-Consider the following piece of MATLAB code.  Analyze it and determine (by hand!) the value of the variables *x1* and *x2* after this code has been run.
-Also indicate any variables whose scope is only the loop and which are no longer defined after the loop has run.
-
-```Matlab
-x1 = 1;
-x2 = 1;
-
-for k=1:5
-  tmp = x2;
-  x2  = x2 + x1;
-  x1  = tmp;
-end
-```
-
 ## Function example with local variables
 
 Suppose that you have a file called *myfunction.m* whose contents are
