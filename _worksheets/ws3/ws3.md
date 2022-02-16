@@ -90,6 +90,7 @@ In class, we practiced doing sums with for loops.  Your friend wants to do the s
 Your friend has the following block of code which is meant to calculate the sum of the integers between $$1$$ and $$10$$.
 
 ```Matlab
+i = 3;
 sum = 0;
 while (i <= 10)
    sum = sum +  i;
