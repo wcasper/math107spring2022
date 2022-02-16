@@ -92,7 +92,7 @@ Your friend has the following block of code which is meant to calculate the sum 
 ```Matlab
 sum = 0;
 while (i <= 10)
-   sum += i;
+   sum = sum +  i;
 ```
 However, when they run the code it seems to go on and on forever.
 
