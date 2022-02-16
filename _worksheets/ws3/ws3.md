@@ -94,6 +94,7 @@ i = 3;
 sum = 0;
 while (i <= 10)
    sum = sum +  i;
+end
 ```
 However, when they run the code it seems to go on and on forever.
 
