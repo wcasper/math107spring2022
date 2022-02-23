@@ -16,5 +16,3 @@ $$S = \pi r\left(r + \sqrt{r^2 + h^2}\right).$$
 
 a) Create a function called *cone_volume* whose input is the radius *r* and the height *h* and whose output is the volume of the associated cone.  Be sure to carefully and appropriately document your function.
 
-b) Submit your function online and also include a copy of the file *cone_volume.m* with the rest of your submission files.
-

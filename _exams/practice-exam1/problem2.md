@@ -20,7 +20,5 @@ c) On the same plot, plot the curves *y1*, *y2*, and *y3* as functions of $$x$$ 
 
 d) Label the horizontal axis as *x* and the vertical axis as *y*, and add a legend to your plot.
 
-e) Save and submit the figure with the rest of your exam files on Canvas.
-
 **Note:** All the commands used to create the figure must be included in the script file that gets submitted.  Commands that are not included will not receive credit.
 
