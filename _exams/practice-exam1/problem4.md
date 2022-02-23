@@ -10,5 +10,5 @@ A The Monty Python International Museum of Silly Walks charges $$8$$ dollars per
 
 a) Create a function called *tour_group_cost* whose input is the number *n* of people in the tour group, and whose output is the *cost* of the tour for the entire group combined.
 
-b) Submit your function online and also include a copy of the file *cone_volume.m* with the rest of your submission files.
+b) Submit your function online and also include a copy of the file *tour_group_cost.m* with the rest of your submission files.
 
