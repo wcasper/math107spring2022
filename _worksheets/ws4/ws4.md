@@ -39,7 +39,7 @@ $$
 
 Note: this formula can't work on the boundaries of an image, so we have to do something different there.  For simplicity, we can let $$B(j,k) = A(j,k)$$ if $$(j,k)$$ is a boundary pixel.
 
-Obviously, the value of the matrix $$F$$ that we choose profoundly influences the resulting "filtered" image.  The filter we just considered causes the value of a pixel to be averaged with it's neighboring pixels.  The result is that the image is slightly **smoothed** or blurred.  Formally, this filter is an example of a **Gaussian filter**.
+Obviously, the value of the matrix $$F$$ that we choose profoundly influences the resulting "filtered" image.  The filter we just considered causes the value of a pixel to be averaged with it's neighboring pixels.  The result is that the image is slightly **smoothed** or blurred.  Formally, this filter is an example of a **Gaussian filter**.  Other effects may be accomplished using a different filter matrix $$F$$, such as image **sharpening**.
 
 ### Filtered pixel function
 
@@ -96,6 +96,8 @@ Aflt = double(A);
 hdiff = Aflt(1:end-1,1:end-1)-Aflt(1:end-1,2:end);
 hdiff = abs(hdiff);
 ```
+
+In fact, we can think of this as just another example of a **linear image filter**!
 
 If we try to plot this using *imshow(hdiff)* things go a bit weird because hdiff still has floating point values.  To fix this, we convert it back to 8-bit unsigned integers before showing it.
 
