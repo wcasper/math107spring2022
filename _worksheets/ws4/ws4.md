@@ -147,4 +147,3 @@ This is very related to other image filters such as a **unmask sharpening filter
 
 Try rewriting your code from the averaging filter to use this matrix and see how it works for your river image.
 
-
