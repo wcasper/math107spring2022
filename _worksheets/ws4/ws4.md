@@ -10,7 +10,7 @@ This is a self-guided **group worksheet**.  Work with your group members to foll
 
 You will need the files
 
-* [river.png](river.png)
+* [river.png](ws4/river.png)
 
 ## Image filters
 
@@ -47,7 +47,7 @@ For the first part of this worksheet, we will write a function called *average_p
 
 You should use the following template and fill in the missing pieces of code.
 
-* [average_pixel.m](average_pixel.m)
+* [average_pixel.m](ws4/average_pixel.m)
 
 ### Image smoothing function
 
@@ -55,7 +55,7 @@ For the second part of this worksheet, we will write a function called *imsmooth
 
 You should use the following template and fill in the missing pieces of code.
 
-* [imsmooth.m](imsmooth.m)
+* [imsmooth.m](ws4/imsmooth.m)
 
 Note that this code features a couple new things, specifically *double* and *uint8*.  These tell MATLAB what **data type** a partcular matrix is.  Grayscale images feature unsigned 8-bit integers, while most floating point stuff in MATLAB is double which is 8-byte (64-bit) floating point data.  Since we are doing algebra with them, we want to first convert things to floating point data, and then convert back to the expected 8-bit stuff at the very end.  This is all done in the template for you.
 
