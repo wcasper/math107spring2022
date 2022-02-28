@@ -99,7 +99,7 @@ hdiff = abs(hdiff);
 
 In fact, excluding the absolute value, we can think of this as just another example of a **linear image filter** but with the filtration matrix
 
-$$F = \frac{1}{12}\left[\begin{array}{ccc}
+$$F = \left[\begin{array}{ccc}
 0 & 0 & 0\\
 -1& 1 & 0\\
 0 & 0 & 0
@@ -124,7 +124,7 @@ imshow(vdiff);
 
 The associated filtration matrix is 
 
-$$F = \frac{1}{12}\left[\begin{array}{ccc}
+$$F = \left[\begin{array}{ccc}
 0 & 0 & 0\\
 0 & 1 & 0\\
 0 &-1 & 0
@@ -135,7 +135,7 @@ $$F = \frac{1}{12}\left[\begin{array}{ccc}
 
 More generally, we can **combine** both the horizontal and vertical differences to produce an even better combined edge detection using a more complicated filter, such as
 
-$$F = \frac{1}{12}\left[\begin{array}{ccc}
+$$F = \frac{1}{4}\left[\begin{array}{ccc}
 0 &-1 & 0\\
 -1& 4 &-1\\
 0 &-1 & 0
