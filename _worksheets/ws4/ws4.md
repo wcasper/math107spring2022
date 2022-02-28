@@ -114,7 +114,7 @@ vdiff = uint8(vdiff);
 imshow(vdiff);
 ```
 
-**Question:** Plot both the horizontal and vertical differences side-by-side.  Do you notice any differences at all?
+**Question:** Plot both the horizontal and vertical differences side-by-side.  Do you notice any differences at all?  What would happen if we first smoothed the image before running our edge detection code?
 
 
 
