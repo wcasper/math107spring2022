@@ -92,12 +92,18 @@ imshow(B);
 In class, we noticed that edges can be detected by comparing pixels to neighboring pixels.  For example, the following code will calculate the absolute value of the difference between neighboring pixels in the same column
 
 ```MATLAB
-Aflt = double(A);
-hdiff = Aflt(1:end-1,1:end-1)-Aflt(1:end-1,2:end);
+hdiff = double(A);
+hdiff(:,1:end-1) = hdiff(:,1:end-1)-hdiff(:,2:end);
 hdiff = abs(hdiff);
 ```
 
-In fact, we can think of this as just another example of a **linear image filter**!
+In fact, excluding the absolute value, we can think of this as just another example of a **linear image filter** but with the filtration matrix
+
+$$F = \frac{1}{12}\left[\begin{array}{ccc}
+0 & 0 & 0\\
+-1& 1 & 0\\
+0 & 0 & 0
+\end{array}\right]$$
 
 If we try to plot this using *imshow(hdiff)* things go a bit weird because hdiff still has floating point values.  To fix this, we convert it back to 8-bit unsigned integers before showing it.
 
@@ -116,7 +122,25 @@ vdiff = uint8(vdiff);
 imshow(vdiff);
 ```
 
+The associated filtration matrix is 
+
+$$F = \frac{1}{12}\left[\begin{array}{ccc}
+0 & 0 & 0\\
+0 & 1 & 0\\
+0 &-1 & 0
+\end{array}\right]$$
+
 **Question:** Plot both the horizontal and vertical differences side-by-side.  Do you notice any differences at all?  What would happen if we first smoothed the image before running our edge detection code?
 
+
+More generally, we can **combine** both the horizontal and vertical differences to produce an even better combined edge detection using a more complicated filter, such as
+
+$$F = \frac{1}{12}\left[\begin{array}{ccc}
+0 &-1 & 0\\
+-1& 4 &-1\\
+0 &-1 & 0
+\end{array}\right]$$
+
+This is very related to other image filters such as a **unmask sharpening filter**.
 
 
