@@ -31,10 +31,13 @@ Then the $(j,k)$'th pixel in the image $$B$$ is determined by
 
 $$
 \begin{align}
-B(j,k)  = \frac{1}{12}& ( A(j-1,k-1) + A(j-1,k) + A(j-1,k+1)\\
+B(j,k)  = &\frac{1}{12}  ( A(j-1,k-1) + A(j-1,k) + A(j-1,k+1)\\
                       & + A(j,k-1) + 4A(j,k) + A(j,k+1)\\
                       & + A(j+1,k-1) + A(j+1,k) + A(j+1,k+1) )\\
 \end{align}
 $$
+
+Obviously, the value of the matrix $$F$$ that we choose profoundly influences the resulting "filtered" image.
+
 
 
