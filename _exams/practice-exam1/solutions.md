@@ -4,6 +4,7 @@ title: Practice Exam 1 Solutions
 permalink: /exams/practice-exam1/solutions
 ---
 
+
 ## Coding portion
 
 * [problem1_soln.m](problem1_soln.m)
