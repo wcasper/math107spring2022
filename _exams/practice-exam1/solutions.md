@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Practice Exam 1 Solutions
-permalink: /exam1/practice-exam1/solutions
+permalink: /exams/practice-exam1/solutions
 ---
 
 ## Coding portion
