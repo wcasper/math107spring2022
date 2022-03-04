@@ -4,26 +4,67 @@ title: Homework 4 Part 3
 permalink: /homework/hw4/hw4-part3
 ---
 
-## More (random) function practice
+## Written Portion
+
+Work out each of the following problems **by hand** and be sure to show your work.  Scan your written solutions and upload them as a **single** PDF.
 
 **Problem 3:**
 
-Samantha is playing Dungeons and Dragons with his friends one day, but she forgot her **D20** (a $$20$$-sided die with values between $$1$$ and $$20$$).  Luckily, she can use the following command in MATLAB to generate a random integer between $$1$$ and $$20$$.
+Let
 
-```Matlab
-randi(20,1,1)
-```
+$$\vec v = \binom{3}{5},\quad \vec w = \binom{-3}{6}$$
 
-Using this, write a function called rollD20 whose input is an integer *ac* (representing the armor class of a monster).  Inside the function, it creates a variable *roll* whose value is a random integer between $$1$$ and $$20$$.  Finally, it returns text according to the following rules
-* "Critical Hit!" if *roll* is equal to $$20$$
-* "Hit!" if *roll* is less than 20 but $$\geq$$ *ac*
-* "Miss!" if *roll* is less than *ac* but greater than $$1$$
-* "Critical Failure!" if *roll* is less than *ac* and equal to $$1$$
+Plot by hand the following vectors
 
-Be sure to include good documentation in the file, including
-* USEAGE:
-* INPUTS:
-* OUTPUT:
-* DETAILED DESCRIPTION:
+a) $$\vec v$$
+
+b) $$\vec w$$
+
+c) $$\vec v + \vec w$$
+
+d) $$\vec v - \vec w$$
+
+
+**Problem 4:**
+
+Consider the following problems concerning matrices
+
+a) If $$A$$ is a $$5\times 3$$ matrix and $$AB$$ is a $$5\times 7$$ matrix, what must be the dimensions of $$B$$? Explain.
+
+b) If $$B$$ and $$C$$ are matrices and $$BC$$ is a $$3\times 4$$ matrix, what can we say for sure about the dimensions of $$B$$ and $$C$$?
+
+c) Let 
+
+$$
+A = \left(\begin{array}{cc}
+1 & 2\\
+2 & 3
+\end{array}\right),\quad
+B = \left(\begin{array}{cc}
+5 & 8\\
+8 & x
+\end{array}\right)
+$$
+
+Determine for which values of $$x$$ we have $$AB = BA$$.
+
+d) Let 
+
+$$
+A = \left(\begin{array}{cc}
+1 & 1\\
+1 & 1
+\end{array}\right),\quad
+B = \left(\begin{array}{cc}
+3  & 1\\
+-1 & 1
+\end{array}\right),\quad
+C = \left(\begin{array}{cc}
+4  & 2\\
+-2 & 0
+\end{array}\right)
+$$
+
+Show that $$AB = AC$$, even though $$B\neq C$$.
 
 
