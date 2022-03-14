@@ -49,9 +49,15 @@ For still others, the particle will linger near the origin for a long period of 
 Remember, the distance from the origin is given by the modulus (absolute value) $$\lvert z\rvert$$ of a complex number $$z$$, so we are really asking whether $$\lvert z\rvert$$ starts to blow up or remains small.  Initial points where $$\lvert z\rvert$$ blows up are called **unstable**.
 This inspires the following interesting and difficult question.
 
-**Question:** Can we try to determine which initial points are **unstable**?  How long does it take these points to blow up?
+**Tough Problem:** Can we try to determine which initial points are **unstable**?  How long does it take these points to blow up?
 
 As a first swipe at this, let's consider a point to have **blown up** when $$\lvert z_n\rvert > 2000.$$  We can consider the number of steps it takes a point to blow up as a measure of its stability.  The more stable the point, the longer it takes to blow up!
+
+The most stable points of all are **fixed points** satisfying the property that $$z_n = z_0$$ for all $$n$$.  These are points which don't move as time goes on.
+
+**Question:** Find the fixed points of the discrete dynamical system described above.  Their value will depend on the value of $$c$$.  [Hint: think about the quadratic formula!]
+
+### Part 3
 
 To explore our measurement of the stability of points, we first want to make a matrix whose values are complex numbers in an evenly spaced grid in the complex plane.  We will focus on the a square in the complex plane where $$-1.5\leq \text{Re}(z)\leq 1.5$$ and $$-1.5\leq \text{Im}(z)\leq 1.5$$.  To do this, we can use the *meshgrid* command.
 
@@ -148,13 +154,15 @@ This should produce a figure identical to the following.
 
 ![julia set](ws5/julia-example.png)
 
+Dark blue points correspond to unstable points which fall away from the origin very quickly.  Brigher points are stable and remain near the origin for a long period of time.
+
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
 **Questions:**  What does the image your graph produced look like.  Do you notice any patterns in particular?
 
-### Part 3
+### Part 4
 
-In this part, repeat the work from Part 2, but with $$c = -0.835- 0.2321i$$.  You should notice that the picture you generate will change dramatically.
+In this part, repeat the work from Part 3, but with $$c = -0.835- 0.2321i$$.  You should notice that the picture you generate will change dramatically.
 
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
