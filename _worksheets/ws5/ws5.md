@@ -33,8 +33,6 @@ The MATLAB script used to create this plot can be found here
 
 * [trajectory.m](trajectory.m)
 
-As a first swipe at this, we let's say We can decide how stable an initial point $$z_0$$ is by determining how long $$z_n$$ remains with relatively small magnitude, ie. by determining what the largest value of $$n$$ is satisfying $$\lvert z_n\rvert <2000$$.  By coloring points in the complex plane according to how much time it takes for $$\lvert z\rvert >2000$$, we generate a very beautiful pattern called a **Julia set**.  In this worksheet, we will create some examples of Julia sets.
-
 ### Part 1
 Let's practice the dynamical system that we've described above.  Suppose that $$z_0 = 1 + i$$ and that $$c = 0.5 + 0.5i$$
 
@@ -154,7 +152,7 @@ This should produce a figure identical to the following.
 
 ![julia set](ws5/julia-example.png)
 
-Dark blue points correspond to unstable points which fall away from the origin very quickly.  Brighter points are stable and remain near the origin for a long period of time.  The brightest yellow points are those which eventually become fixed points.
+The beautiful pattern depicted here is called a **Julia set**.  Dark blue points correspond to unstable points which fall away from the origin very quickly.  Brighter points are stable and remain near the origin for a long period of time.  The brightest yellow points are those which eventually become fixed points.
 
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
