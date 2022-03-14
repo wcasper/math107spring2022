@@ -27,7 +27,7 @@ $$z_2 = (0.255 + 0.05i)^2 + (0.285 + 0.01i) = 0.3475 + 0.0355i$$.
 
 We can think of $$z_n$$ as the complex coordinate of a particle at time $$n$$, so that the above describes how the position of the particle changes over time.  The following plot depicts the trajectory of the particle during the first fifteen movements.
 
-![trajectory of particle](trajectory.png)
+![trajectory of particle](ws5/trajectory.png)
 
 The MATLAB script used to create this plot can be found here
 
@@ -146,7 +146,7 @@ pcolor(stability), shading interp
 
 This should produce a figure identical to the following.
 
-![julia set](julia-example.png)
+![julia set](ws5/julia-example.png)
 
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
