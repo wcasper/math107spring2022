@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Worksheet 4
-permalink: /worksheets/ws4
+title: Worksheet 5
+permalink: /worksheets/ws5
 ---
 
 ## Directions
