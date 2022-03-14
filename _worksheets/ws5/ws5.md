@@ -154,7 +154,7 @@ This should produce a figure identical to the following.
 
 ![julia set](ws5/julia-example.png)
 
-Dark blue points correspond to unstable points which fall away from the origin very quickly.  Brigher points are stable and remain near the origin for a long period of time.
+Dark blue points correspond to unstable points which fall away from the origin very quickly.  Brighter points are stable and remain near the origin for a long period of time.  The brightest yellow points are those which eventually become fixed points.
 
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
