@@ -31,7 +31,7 @@ We can think of $$z_n$$ as the complex coordinate of a particle at time $$n$$, s
 
 The MATLAB script used to create this plot can be found here
 
-* [trajectory.m](trajectory.m)
+* [trajectory.m](ws5/trajectory.m)
 
 ### Part 1
 Let's practice the dynamical system that we've described above.  Suppose that $$z_0 = 1 + i$$ and that $$c = 0.5 + 0.5i$$
@@ -140,7 +140,7 @@ end
 
 A version of this code in the form of a MATLAB script can be found here.
 
-* [julia.m](julia.m)
+* [julia.m](ws5/julia.m)
 
 When this code has finished executing, the matrix *stability* will contain the maximum number of iterations each point remained with small norm less than $$1000$$.  We can visualize this set graphically by running the command
 
