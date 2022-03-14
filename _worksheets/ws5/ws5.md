@@ -117,8 +117,6 @@ y = linspace(-1.5,1.5,1000);
 Z = X + i*Y;
 ```
 
-### Part 3
-
 Now for each entry $$Z(i,j)$$ of $$Z$$, we want to see how long the entry remains having norm less than $$2000$$.  We can do this with a *for loop*.  We will again focus on the case when $$c = 0.285 + 0.01i$$ .
 
 ```Matlab
@@ -154,9 +152,9 @@ This should produce a figure identical to the following.
 
 **Questions:**  What does the image your graph produced look like.  Do you notice any patterns in particular?
 
-### Part 4
+### Part 3
 
-In this part, we will repeat the work from Part 2, but with $$c = -0.835- 0.2321i$$.  You should notice that the picture you generate will change dramatically.
+In this part, repeat the work from Part 2, but with $$c = -0.835- 0.2321i$$.  You should notice that the picture you generate will change dramatically.
 
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
