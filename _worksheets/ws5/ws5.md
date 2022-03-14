@@ -47,17 +47,17 @@ For some starting positions in the complex plane, the evolution causes the parti
 For still others, the particle will linger near the origin for a long period of time.
 
 Remember, the distance from the origin is given by the modulus (absolute value) $$\lvert z\rvert$$ of a complex number $$z$$, so we are really asking whether $$\lvert z\rvert$$ starts to blow up or remains small.  Initial points where $$\lvert z\rvert$$ blows up are called **unstable**.
-This inspires the following interesting and difficult question.
-
-**Tough Problem:** Can we try to determine which initial points are **unstable**?  How long does it take these points to blow up?
-
-As a first swipe at this, let's consider a point to have **blown up** when $$\lvert z_n\rvert > 2000.$$  We can consider the number of steps it takes a point to blow up as a measure of its stability.  The more stable the point, the longer it takes to blow up!
 
 The most stable points of all are **fixed points** satisfying the property that $$z_n = z_0$$ for all $$n$$.  These are points which don't move as time goes on.
 
 **Question:** Find the fixed points of the discrete dynamical system described above.  Their value will depend on the value of $$c$$.  [Hint: think about the quadratic formula!]
 
 ### Part 3
+In general, we would like to understand the behavior of points over time based on their initial positions.  
+
+**Big Goal:** Can we try to determine which initial points are **unstable**?  How long does it take unstable points to blow up?
+
+As a first swipe at this, let's consider a point to have **blown up** when $$\lvert z_n\rvert > 2000.$$  We can consider the number of steps it takes a point to blow up as a measure of its stability.  The more stable the point, the longer it takes to blow up!
 
 To explore our measurement of the stability of points, we first want to make a matrix whose values are complex numbers in an evenly spaced grid in the complex plane.  We will focus on the a square in the complex plane where $$-1.5\leq \text{Re}(z)\leq 1.5$$ and $$-1.5\leq \text{Im}(z)\leq 1.5$$.  To do this, we can use the *meshgrid* command.
 
