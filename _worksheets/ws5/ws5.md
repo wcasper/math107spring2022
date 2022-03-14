@@ -136,11 +136,19 @@ end
 
 ```
 
+A version of this code in the form of a MATLAB script can be found here.
+
+* [julia.m](julia.m)
+
 When this code has finished executing, the matrix *stability* will contain the maximum number of iterations each point remained with small norm less than $$1000$$.  We can visualize this set graphically by running the command
 
 ```Matlab
 pcolor(stability), shading interp
 ```
+
+This should produce a figure identical to the following.
+
+![julia set](julia-example.png)
 
 **Questions:**  What is the value of the $$(400,400)$$ entry of *stability* ? Make sure to remember this for the self-assessment later.
 
