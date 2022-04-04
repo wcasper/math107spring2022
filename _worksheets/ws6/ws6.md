@@ -8,7 +8,7 @@ permalink: /worksheets/ws6
 
 This is a self-guided **group worksheet**.  Work with your group members to follow the instructions below and explore!  Note that some of the results will be assessed later, so make sure you do it right!
 
-## Interpolation
+## Polynomial Interpolation
 
 Oftentimes when we are dealing with a very complicated function $$f(x)$$, typical tasks such as differentiating $$f(x)$$, integrating $$f(x)$$ or even evaluating $$f(x)$$ at a point can become challening.
 One tactic that is often used is to **approximate** $$f(x)$$ by a nicer function, such as a polynomial $$p(x)$$, on a specific interval.
@@ -95,6 +95,18 @@ roots([6 0 0 0 1 2])
 * (E) Use MATLAB to find the roots of the polynomial $$p_4(x)$$ defined above.  The root inside the interval $$[-1,1]$$ should closely approximate the actual value of the $$x$$-intercept of $$f(x)$$.  How far away is your approximation?  Make sure to remember this for the self-assessement later.
 
 
+## Lagrange's formula
+
+It turns out that we have an explicit expression for the value of the interpolating polynomial in terms of a finite product.
+Specifically given any function $$f(x)$$ and interpolation points $$x_0,\dots, x_d$$, the unique polynomial $$p_d(x)$$ of degree $$d$$ satisfying $$f(x_j) = p_d(x_j)$$ for all $$j$$ is
+
+$$p_d(x) = \sum_{n=0}^d f(x_n)L_n(x)$$
+
+where here $$L_n(x)$$ is the **Lagrange interpolating polynomial** defined by
+
+$$L_n(x) = \frac{(x-x_0)(x-x_1)\dots(x-x_d)}{(x_n-x_1)(x_n-x_2)\dots (x_n-x_{n-1})(x_n-x_{n+1})\dots (x_n-x_d)}.$$
+
+* (A) S
 
 
 
