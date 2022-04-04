@@ -76,7 +76,7 @@ $$p_4(x) = c_0 + c_1x + c_2x^2 + c_3x^3 + c_4x^4$$
 
 using the five interpolation points $$x_0 = 0$$, $$x_1 = 1$$, $$x_2 = -1$$, $$x_3 = 0.5$$, and $$x_4 = -0.5$$.
 
-* (B) Form the augmented matrix $$A$$ for this linear system and enter it into MATLAB.  Then use the MATLAB function *rref(A)* to calculate the row reduced echelon form of $$A$$ and solve the linear system of equations.  Make sure to remember the solutiono for the self-assessment later.
+* (B) Form the augmented matrix $$A$$ for this linear system and enter it into MATLAB.  Then use the MATLAB function *rref(A)* to calculate the reduced row echelon form of $$A$$ and solve the linear system of equations.  Make sure to remember the solutiono for the self-assessment later.
 
 * (D) Use MATLAB to create a plot of $$p_2(x)$$, $$p_4(x)$$ and $$f(x)$$ all on the same graph on the interval $$[-1,1]$$.  Add a legend indicating which curve is which.
 
