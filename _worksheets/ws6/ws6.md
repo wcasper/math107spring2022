@@ -39,7 +39,7 @@ Solving this system, we find $$c_0 = 1$$ and $$c_1 = e$$ so that our polynomial 
 
 $$p_1(x) = 1 + ex.$$
 
-We can plot $$f(x)$$ and $p_1(x)$$ on the same graph to get an idea of how close our approximation is.
+We can plot $$f(x)$$ and $$p_1(x)$$ on the same graph to get an idea of how close our approximation is.
 
 ```MATLAB
 x = linspace(-1,1,1000);
