@@ -111,12 +111,12 @@ $$L_n(x) = \frac{(x-x_0)(x-x_1)\dots (x-x_{n-1})(x-x_{n+1})\dots (x-x_d)}{(x_n-x
 Complete the following MATLAB function called *lagpoly(x,n,interpts)* which takes in a real number $$x$$, a positive integer $$n$$ and an array *interpts* of interpolation points and returns the value of $$L_n(x)$$.
 
 ```MATLAB
-funcion result = lagpoly(x,n,interpts)
-%USEAGE: result = lagpoly(x,n,interpts)
+function Ln = lagpoly(x,n,interpts)
+%USEAGE: Ln = lagpoly(x,n,interpts)
 %INPUTS: x        --  the point to evaluate the polynomial at
 %        n        --  which Lagrange interpolating polynomial we want
-%	interpts --  an array of values specifying the interpolation points
-%OUTPUT: result   --  the value of L_n(x) at x
+%        interpts --  an array of values specifying the interpolation points
+%OUTPUT: Ln       --  the value of L_n(x) at x
 %
 %Detailed Description: this function takes in the value of a point x, a
 %   positive integer n, and an array of interpolation points and returns 
@@ -124,10 +124,10 @@ funcion result = lagpoly(x,n,interpts)
 
   npts = len(interpts)  % get the number of interpolation points
 
-  result = 1;
+  Ln = 1;
   for k = 1:npts
     % calculate the product 
-    % result = result*...
+    % Ln = Ln*...
   end
 
 end
