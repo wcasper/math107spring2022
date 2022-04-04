@@ -39,6 +39,19 @@ Solving this system, we find $$c_0 = 1$$ and $$c_1 = e$$ so that our polynomial 
 
 $$p_1(x) = 1 + ex.$$
 
+We can plot $$f(x)$$ and $p_1(x)$$ on the same graph to get an idea of how close our approximation is.
+
+```MATLAB
+x = linspace(-1,1,1000);
+y = exp(x)+x;
+p1 = 1 + exp(1)*x;
+plot(x,y,'b-')
+hold on
+plot(x,p1,'r--')
+legend("exp(x)+x","p_1(x)")
+```
+
+![trajectory of particle](ws6/p1.png)
 
 ### Part 1
 Let's practice the example that we described above, but this time with three interpolation points so that our polynomial interpolation will have degree $$2$$.
