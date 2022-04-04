@@ -97,16 +97,42 @@ roots([6 0 0 0 1 2])
 
 ## Lagrange's formula
 
-It turns out that we have an explicit expression for the value of the interpolating polynomial in terms of a finite product.
+It turns out that we have an explicit expression for the value of the interpolating polynomial in terms of a sum of certain special polynomials.
 Specifically given any function $$f(x)$$ and interpolation points $$x_0,\dots, x_d$$, the unique polynomial $$p_d(x)$$ of degree $$d$$ satisfying $$f(x_j) = p_d(x_j)$$ for all $$j$$ is
 
 $$p_d(x) = \sum_{n=0}^d f(x_n)L_n(x)$$
 
 where here $$L_n(x)$$ is the **Lagrange interpolating polynomial** defined by
 
-$$L_n(x) = \frac{(x-x_0)(x-x_1)\dots(x-x_d)}{(x_n-x_1)(x_n-x_2)\dots (x_n-x_{n-1})(x_n-x_{n+1})\dots (x_n-x_d)}.$$
+$$L_n(x) = \frac{(x-x_0)(x-x_1)\dots (x-x_{n-1})(x-x_{n+1})\dots (x-x_d)}{(x_n-x_0)(x_n-x_1)\dots (x_n-x_{n-1})(x_n-x_{n+1})\dots (x_n-x_d)}.$$
 
-* (A) S
+### Part 3
+
+Complete the following MATLAB function called *lagpoly(x,n,interpts)* which takes in a real number $$x$$, a positive integer $$n$$ and an array *interpts* of interpolation points and returns the value of $$L_n(x)$$.
+
+```MATLAB
+funcion result = lagpoly(x,n,interpts)
+%USEAGE: result = lagpoly(x,n,interpts)
+%INPUTS: x        --  the point to evaluate the polynomial at
+%        n        --  which Lagrange interpolating polynomial we want
+%	interpts --  an array of values specifying the interpolation points
+%OUTPUT: result   --  the value of L_n(x) at x
+%
+%Detailed Description: this function takes in the value of a point x, a
+%   positive integer n, and an array of interpolation points and returns 
+%   the value of the Lagrange interpolating polynomial L_n(x) at x.
+
+  npts = len(interpts)  % get the number of interpolation points
+
+  result = 1;
+  for k = 1:npts
+    % calculate the product 
+    % result = result*...
+  end
+
+end
+
+```
 
 
 
