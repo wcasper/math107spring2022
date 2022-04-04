@@ -20,7 +20,7 @@ In this worksheet, we will explore a very powerful approximation method called *
 **Definition:** Let $$f(x)$$ be a function defined on the $$\mathbb R$$ and fix $$d+1$$ distinct points $$x_0, x_1, \dots, x_d$$ on $$\mathbb R$$.
 The **polynomial interpolation** of $$f(x)$$ at these points is the unique polynomial of degree $$d$$
 
-$$p_d(x) = c_0 + c_1x + c_2x^2 + \dots + c_dx_d$$
+$$p_d(x) = c_0 + c_1x + c_2x^2 + \dots + c_dx^d$$
 
 satisfying the condition that $$p_d(x_j) = f(x_j)$$ for all $$0\leq j \leq d$$.  Here $$c_0,\dots, c_d$$ are just some constants which define the polynomial $$p(x)$$.  The points $$x_0, x_1,\dots, x_d$$ are called the **interpolation points**.  Clearly the degree of the polynomial, and therefore the accuracy of the interpolation, depends on the number of interpolation points.
 
