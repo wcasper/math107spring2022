@@ -35,6 +35,7 @@ $$\left\lbrace\begin{array}{cc}
 c_0 + c_1(0) &= 1\\
 c_0 + c_1(1) &= e+1\\
 \end{array}\right.$$
+
 Solving this system, we find $$c_0 = 1$$ and $$c_1 = e$$ so that our polynomial interpolation is
 
 $$p_1(x) = 1 + ex.$$
