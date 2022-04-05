@@ -31,7 +31,7 @@ $$p_1(x) = c_0 + c_1x$$
 
 satisfying $$p_1(0) = e^0+0 = 1$$ and $$p_1(1) = e^1+1= e+1$$.  Inserting this into our expression for $$p_1(x)$$ gives us a system of two equations and two unknowns
 
-$$\left\lbrace\begin{array}{cc}
+$$\left\lbrace\begin{array}{rc}
 c_0 + c_1(0) &= 1\\
 c_0 + c_1(1) &= e+1\\
 \end{array}\right.$$
