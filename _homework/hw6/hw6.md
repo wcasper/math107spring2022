@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Homework 7
-permalink: /homework/hw7
+title: Homework 6
+permalink: /homework/hw6
 ---
 
 Work out each of the following problems **by hand** and be sure to show your work.  Scan your written solutions and upload them as a **single** PDF.
