@@ -12,6 +12,6 @@ permalink: /exams/practice-exam2/solutions
 
 ## Written portion
 
-* [written-portion-solutions.pdf](written-portion-solutions.pdf)
+* [written-portion-soln.pdf](written-portion-soln.pdf)
 
 
