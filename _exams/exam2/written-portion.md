@@ -69,7 +69,7 @@ Consider the following situation
 
 The cost of a ticket to the Aquarium is $$7$$ dollars for a child $$12$$ dollars for a senior and $$20$$ dollars for an adult.
 On a particular day, the aquarium sells twice the number of children's tickets as the number of adult and senior tickets combined.
-The total number of tickets sold that day is $$300$$ and the total revenue generated from the sale of tickets is $$4300$$ dollars.
+The total number of tickets sold that day is $$300$$ and the total revenue generated from the sale of tickets is $$3200$$ dollars.
 
 
 * (a) Set up a linear system of equations for the following story problem
