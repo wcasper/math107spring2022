@@ -35,7 +35,7 @@ For example, suppose that in the town of Coolsville, the prices of some various 
 These data points are plotted as the blue circles in the image below.
 Notice that they lie very close to the red line whose equation is
 
-$$C = 15x + 100000.$$$
+$$C = 15x + 100000.$$
 
 This linear model can now be used to **predict costs**.
 
