@@ -108,7 +108,7 @@ $$
 
 ## Part 1
 
-In the mythical land of Xanth, the cost of a thatched roof cottage depends strongly on the number of square feet in the interior.
+In the mythical land of [Xanth](https://en.wikipedia.org/wiki/Xanth), the cost of a thatched roof cottage depends strongly on the number of square feet in the interior.
 The costs (in gold pieces) of several cottages which were recently sold are listed in the table below.
 
 | Cost $$C$$ | Interior square footage $$x$$ |
