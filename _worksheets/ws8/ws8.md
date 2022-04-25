@@ -37,6 +37,7 @@ p(A) &= A^2 + 2A + 3I\\
 
 
 * **Problem 1:** Calculate the value of $$p(A)$$ for
+
 $$p(x) = x^2 + 3x + 2,\quad A = \left[\begin{array}{cc}2 & 1\\ 3 & 0\end{array}\right].$$
 
 ### The Cayley Hamilton Theorem
