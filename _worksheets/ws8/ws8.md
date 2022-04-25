@@ -61,6 +61,13 @@ is $$p(x) = x^2-1$$ and we calculate
 
 $$p(A) = A^2-I = \left[\begin{array}{cc}0 & 0\\0 & 0\end{array}\right].$$
 
+
+**Problem 2:**  Find a $$2\times 2$$ matrix $$A$$ satisfying
+
+$$A^2 = 3A.$$
+
+### Inverses of matrices
+
 The Cayley-Hamilton theorem has many useful applications.  One is a clever new way to calculate the inverse of a matrix.
 
 **Theorem:** Suppose that the characteristic polynomial $$p(x)$$ of $$A$$ is
@@ -71,7 +78,7 @@ Then $$A$$ is invertible if and only if $$a_0\neq 0$$, in which case
 
 $$A^{-1} = -\frac{1}{a_0}(a_1I + a_2A + \dots + a_nA^{n-1}).$$
 
-**Problem 2:**  Use the previous theorem to calculate the inverse of the matrix
+**Problem 3:**  Use the previous theorem to calculate the inverse of the matrix
 
 $$A = \left[\begin{array}{ccc} 1 & 0 & 1\\ 0 & 1 & 1\\2 & 1 & 0\end{array}\right].$$
 
