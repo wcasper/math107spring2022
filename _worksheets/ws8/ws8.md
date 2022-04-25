@@ -31,7 +31,10 @@ Then
 
 $$\begin{align*}
 p(A) &= A^2 + 2A + 3I\\
-     & \left[\begin{array}{cc}1 & 2\\ 0 & -1\end{array}\right]^2 + 2\left[\begin{array}{cc}1 & 2\\ 0 & -1\end{array}\right] + 3\left[\begin{array}{cc}1 & 0\\ 0 & 1\end{array}\right]\\
-     & \left[\begin{array}{cc}1 & 0\\ 0 & 1\end{array}\right] + \left[\begin{array}{cc}2 & 4\\ 0 & -2\end{array}\right] + \left[\begin{array}{cc}3 & 0\\ 0 & 3\end{array}\right]\\
+     &= \left[\begin{array}{cc}1 & 2\\ 0 & -1\end{array}\right]^2 + 2\left[\begin{array}{cc}1 & 2\\ 0 & -1\end{array}\right] + 3\left[\begin{array}{cc}1 & 0\\ 0 & 1\end{array}\right]\\
+     &= \left[\begin{array}{cc}1 & 0\\ 0 & 1\end{array}\right] + \left[\begin{array}{cc}2 & 4\\ 0 & -2\end{array}\right] + \left[\begin{array}{cc}3 & 0\\ 0 & 3\end{array}\right]\\
+     &= \left[\begin{array}{cc}6 & 4\\ 0 & 2\end{array}\right]
 \end{align*}$$
+
+
 
