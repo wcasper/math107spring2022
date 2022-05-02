@@ -31,7 +31,7 @@ $$L = D-A.$$
 
 For example, consider the graph
 
-!(example graph)[graph1.png]
+![example graph](graph1.png)
 
 The adjacency matrix of this graph is given by
 
