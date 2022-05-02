@@ -31,7 +31,7 @@ $$L = D-A.$$
 
 For example, consider the graph
 
-![example graph](graph1.png)
+![example graph](ws9/graph1.png)
 
 The adjacency matrix of this graph is given by
 
@@ -60,7 +60,22 @@ $$L = D-A = \left[\begin{array}{cccc}
 -1 & -1 &  0 &  2
 \end{array}\right]$$
 
+* Problem 1: Find the largest eigenvalue of the Laplacian matrix of the graph
+
+![star graph](ws9/graph2.png)
+
+Make sure to save the value to use in the self-assessement later!
+
+A graph is **connected** if you can travel from a fixed vertex to any other vertex via a series of edges.  It turns out that this is characterized by whether or not $$0$$ shows up more than once as an eigenvalue of the graph Laplacian!
+
+* Problem 2: Create a new graph which is not connected by removing the edge between $$1$$ and $$4$$ and the edge between $$2$$ and $$5$$ in the graph from Problem 1.  Show that the new graph Laplacian has $$0$$ occuring as an eigenvalue more than once.
+
 ## Clusters in graphs
+
+A **cluster** in a graph is a collection of vertices which are closely connected to each other in comparison to their connections elsewhere.
+For example, in the graph below the red vertices are strongly interconnected to each other, but weakly connected to the blue vertices.  Likewise the blue vertices are strongly connected to each other but weakly connected elsewhere.
+
+![cluster graph](ws9/graph3.png)
 
 In **spectral clustering** the eigenvalues and eigenvectors of the **graph Laplacian**
 
