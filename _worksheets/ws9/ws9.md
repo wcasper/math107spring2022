@@ -80,12 +80,11 @@ A **cluster** in a graph is a collection of vertices which are closely connected
 For example, in the graph below the red vertices are strongly interconnected to each other, but weakly connected to the blue vertices.  Likewise the blue vertices are strongly connected to each other but weakly connected elsewhere.
 
 <center>
-<img src="ws9/graph3.png" alt="Simple Cluster Graph" width="200">
+<img src="ws9/graph3.png" alt="Simple Cluster Graph" width="400">
 </center>
 
 Just like the eigenvalues of the Laplacian can detect whether a graph is connected or not, they can also be used to find clusters!  This process is called **spectral clustering**.
 
-a
 
 
 
