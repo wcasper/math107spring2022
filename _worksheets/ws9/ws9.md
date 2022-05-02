@@ -115,7 +115,13 @@ Make sure to save your answers for the self-assessement later!
 
 ## Zachary's Karate Club
 
-One famous example of an application in graph clustering comes from a story about a karate club that existed for three years in the early 1970's.  One of the members, Wayne W. Zachary, recorded which members of the club interacted *outside* of the club.  At some point, there was a blowout between one of the administrators and the club instructor, resulting in the club being split into two new clubs.  Based on his data, Zachary created a graph where the vertices were the 34 club members, and edges were formed between members who interacted outside of the club.  By performing clustering on the graph, Zachary was able to predict which members ended up in the two new clubs after the schism with an incredible degree of accuracy.
+One famous example of an application in graph clustering comes from a story about a karate club that existed for three years in the early 1970's.  One of the members, Wayne W. Zachary, recorded which members of the club interacted *outside* of the club.  At some point, there was a blowout between one of the administrators and the club instructor, resulting in the club being split into two new clubs.  Based on his data, Zachary created a graph where the vertices were the 34 club members, and edges were formed between members who interacted outside of the club.
+
+<center>
+<img src="ws9/karate.png" alt="Simple Cluster Graph" width="400">
+</center>
+
+By performing clustering on the graph, Zachary was able to predict which members ended up in the two new clubs after the schism with an incredible degree of accuracy.
 
 
 
