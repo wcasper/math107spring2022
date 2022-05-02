@@ -98,6 +98,10 @@ This can be accomplished in MATLAB using the following code
 % get the eigenvectors and eigenvalues
 [evecs,evals] = eig(L,'vector');
 
+% sort the eigenvalues from largest to smallest
+[evals,ind] = sort(evals,'descend');
+evecs = evecs(:,ind);
+
 % set x and y to be the eigenvectors of the largest two eigenvalues
 x = evecs(:,1);
 y = evecs(:,2);
@@ -123,7 +127,48 @@ One famous example of an application in graph clustering comes from a story abou
 
 By performing clustering on the graph, Zachary was able to predict which members ended up in the two new clubs after the schism with an incredible degree of accuracy.
 
+We will read in the data for Zachary's karate club in terms of an adjacency matrix.  Download the file [karate.mat](ws9/karate.mat) and put it in your MATLAB working directory.  Then use the following code to read in the adjacency matrix as a matrix $$A$$.
 
+```MATLAB
+load('karate.mat')
+A = full(Problem.A);
+```
+
+The degree matrix can be obtained from $$A$$ by summing the entries in every column
+
+```MATLAB
+D = diag(sum(A));
+```
+
+The Laplacian may then be calculated in the usual way.
+
+```MATLAB
+L = D-A;
+```
+
+Then we can use the following code to perform our spectral clustering
+
+```MATLAB
+% get the eigenvectors and eigenvalues
+[evecs,evals] = eig(L,'vector');
+
+% sort the eigenvalues from largest to smallest
+[evals,ind] = sort(evals,'descend');
+evecs = evecs(:,ind);
+
+% set x and y to be the eigenvectors of the largest two eigenvalues
+x = evecs(:,1);
+y = evecs(:,2);
+
+% plot x versus y and label the points
+plot(x,y,'ro')
+xl = x + 0.001;  % label x position
+yl = y + 0.001;  % label y position 
+labels = cellstr(num2str((1:size(x))')); % label text
+text(xl,yl,labels)
+```
+
+* Problem 5: Use the above code to perform spectral clustering on the graph.  Use the plot to predict the two separate groups that the club will split into.  Make sure to remember who belongs to what group for the assessment later.
 
 
 
