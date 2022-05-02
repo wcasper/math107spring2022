@@ -31,7 +31,9 @@ $$L = D-A.$$
 
 For example, consider the graph
 
-![example graph](ws9/graph1.png)
+<center>
+<img src="ws9/graph1.png" alt="Simple Example Graph" width="128">
+</center>
 
 The adjacency matrix of this graph is given by
 
@@ -77,13 +79,9 @@ For example, in the graph below the red vertices are strongly interconnected to 
 
 ![cluster graph](ws9/graph3.png)
 
-In **spectral clustering** the eigenvalues and eigenvectors of the **graph Laplacian**
+Just like the eigenvalues of the Laplacian can detect whether a graph is connected or not, they can also be used to find clusters!  This process is called **spectral clustering**.
 
-$$L = D - A$$
-
-of a graph $$G$$ are used to find **clusters**, groups of vertices which are closely connected together, compared to the other vertices in the graph.
-Here 
-
+a
 
 
 
