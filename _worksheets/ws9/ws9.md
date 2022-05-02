@@ -83,9 +83,39 @@ For example, in the graph below the red vertices are strongly interconnected to 
 <img src="ws9/graph3.png" alt="Simple Cluster Graph" width="400">
 </center>
 
-Just like the eigenvalues of the Laplacian can detect whether a graph is connected or not, they can also be used to find clusters!  This process is called **spectral clustering**.
+* Problem 3: create a matrix $$L$$ in MATLAB whose value is the Laplacian matrix for this graph.  Double-check, this matrix should be symmetric and the sum of the entries in any row or column should be zero!
 
+Just like the eigenvalues of the Laplacian can detect whether a graph is connected or not, they can also be used to find clusters!  This process is called **spectral clustering**.  To perform spectral clustering, we use the following steps:
 
+1. Calculate the eigenvalues and eigenvectors of the Laplacian $$L$$
+2. Set $$x$$ to be the eigenvector with largest eigenvalue and $$y$$ to be the eigenvector with second largest eigenvalue
+3. Plot $$x$$ versus $$y$$ and label the points with the vertices
+4. Split the vertices into two groups based on nearness in the plot
+
+This can be accomplished in MATLAB using the following code
+
+```MATLAB
+% get the eigenvectors and eigenvalues
+[evecs,evals] = eig(L,'vector');
+
+% set x and y to be the eigenvectors of the largest two eigenvalues
+x = evecs(:,1);
+y = evecs(:,2);
+
+% plot x versus y and label the points
+plot(x,y,'ro')
+xl = x + rand(size(x,1),1)*0.05;  % label x position
+yl = y + rand(size(y,1),1)*0.05;  % label y position 
+labels = cellstr(num2str((1:size(x))')); % label text
+text(xl,yl,labels)
+```
+
+* Problem 4:  Perform spectral clustering on the graph whose Laplacian you created in Problem 3.  Which points end up right on top of each other?  Which points are furthest away?  What points are most naturally clustered together according to our spectral clustering?
+Make sure to save your answers for the self-assessement later!
+
+## Zachary's Karate Club
+
+One famous example of an application in graph clustering comes from a story about a karate club that existed for three years in the early 1970's.  One of the members, Wayne W. Zachary, recorded which members of the club interacted *outside* of the club.  At some point, there was a blowout between one of the administrators and the club instructor, resulting in the club being split into two new clubs.  Based on his data, Zachary created a graph where the vertices were the 34 club members, and edges were formed between members who interacted outside of the club.  By performing clustering on the graph, Zachary was able to predict which members ended up in the two new clubs after the schism with an incredible degree of accuracy.
 
 
 
