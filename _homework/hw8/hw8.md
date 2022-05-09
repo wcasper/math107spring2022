@@ -23,7 +23,7 @@ $$A = \left[
 * (b)
 
 $$B = \left[
-\begin{array}{cc}
+\begin{array}{ccc}
 2 & 0 & 1\\
 4 & 1 & 3\\
 6 &-1 & 3
@@ -56,6 +56,23 @@ $$A = \left[
 \right]$$
 
 Show that $$A$$ does not have an LU factorization.
+
+
+**Problem 4:**
+
+Use the fact that the coefficient matrix is triangular to easily determine a solution of the linear system of equations
+
+$$\left[
+\begin{array}{ccc}
+2 & 0 & 1\\
+0 & 1 & 1\\
+0 & 0 & 3
+\end{array}
+\right]
+\left[\begin{array}{c}x\\y\\z\end{array}\right]
+ = 
+\left[\begin{array}{c}1\\3\\2\end{array}\right]
+$$
 
 
 
