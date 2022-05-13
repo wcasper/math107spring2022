@@ -7,11 +7,11 @@ permalink: /exams/practice-final/solutions
 
 ## Coding portion
 
-* [problem1_soln.md](problem1_soln.md)
-* [problem2_soln.md](problem2_soln.md)
-* [problem3_soln.md](problem3_soln.md)
-* [problem4_soln.md](problem4_soln.md)
-* [problem5_soln.md](problem5_soln.md)
+* [problem1-soln.md](problem1-soln.md)
+* [problem2-soln.md](problem2-soln.md)
+* [problem3-soln.md](problem3-soln.md)
+* [problem4-soln.md](problem4-soln.md)
+* [problem5-soln.md](problem5-soln.md)
 
 ## Written portion
 
