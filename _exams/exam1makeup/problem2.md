@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Exam 1 Problem 2
+title: Exam 1 Makeup Problem 2
 permalink: /exams/exam1-makeup/problem2
 ---
 
