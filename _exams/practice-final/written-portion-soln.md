@@ -78,6 +78,6 @@ has no solution, one solution, and infinitely many solutions.  If no such value 
 
 * (a)  no solutions DNE; one solution; $$k\neq -3$$; infinitely many solutions $$k=-3$$
 
-* (b) $$z\overline{z} = 8$$ and  $$z = 2e^{7\pi i/4}$$.   Therefore $$z^{200} = 2^{200}e^{350\pi i} = 2^{200}$$.
+* (b) $$z\overline{z} = 8$$ and  $$z = 2\sqrt{2} e^{7\pi i/4}$$.   Therefore $$z^{200} = 2^{200}2^{100}e^{350\pi i} = 2^{300}$$.
 
 
